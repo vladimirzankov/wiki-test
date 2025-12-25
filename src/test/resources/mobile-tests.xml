@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Wikipedia Android Test Suite">
+    <test name="Welcome Flow Scenarios">
+        <classes>
+            <class name="ru.zankov.wiki.android.scenarios.WelcomeFlowScenarioTest"/>
+        </classes>
+    </test>
+
+    <test name="Article Search Scenarios">
+        <classes>
+            <class name="ru.zankov.wiki.android.scenarios.ArticleSearchScenarioTest"/>
+        </classes>
+    </test>
+
+    <test name="Article View Scenarios">
+        <classes>
+            <class name="ru.zankov.wiki.android.scenarios.ArticleViewScenarioTest"/>
+        </classes>
+    </test>
+</suite>

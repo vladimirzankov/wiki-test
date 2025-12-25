@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Wikipedia Browser Test Suite">
+    <test name="Navigation Scenarios">
+        <classes>
+            <class name="ru.zankov.wiki.browser.scenarios.NavigationScenarioTest"/>
+        </classes>
+    </test>
+
+    <test name="Article Scenarios">
+        <classes>
+            <class name="ru.zankov.wiki.browser.scenarios.ArticleScenarioTest"/>
+        </classes>
+    </test>
+</suite>
